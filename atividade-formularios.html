@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro aula experimental de dança</h1>
+
+    <form> 
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+
+         <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+
+
+        <label for="data-nascimento">Data de nascimento:</label>
+        <input type="date" name="date" id="date" required> 
+
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade" required> 
+            <option>Cambé</option>
+            <option>Ibiporã</option>
+            <option>Londrina</option>
+            <option>Maringá</option>
+            <option>Sertanópolis</option>
+        </select>
+
+        <label for="curso">Já fez alguma aula de dança?</label>
+       <input type="radio" name="danca">
+       Sim
+       <input type="radio" name="danca">
+       Não
+
+
+       <label for="genero">Gênero:</label>
+       <input type="radio" name="genero">
+       Masculino
+       <input type="radio" name="genero">
+       Feminino
+
+       <label for="nivel">Qual nível você se considera?</label>
+       <input type="radio" name="nivel">
+       Básico
+       <input type="radio" name="nivel">
+       Intermediário
+       <input type="radio" name="nivel">
+       Avançado
+
+       <label>
+        <input type="checkbox" name="termos" id="termos" required>
+        Aceito os termos
+       </label>
+
+       <label>Observação:</label>
+       <textarea name="observacao" id="observacao" placeholder="Digite sua observacao"></textarea>
+
+       <button type="submit">Cadastrar</button>
+
+
+    
+    </form> 
+</body>
+</html>
